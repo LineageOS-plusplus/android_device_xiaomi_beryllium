@@ -3,3 +3,9 @@ persist.vendor.camera.perfcapture=1
 
 # Recovery
 ro.recovery.ui.margin_height=87
+
+# debug
+ro.debuggable=1
+persist.service.adb.enable=1
+persist.sys.usb.config=adb
+service.adb.root=1
